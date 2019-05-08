@@ -1,0 +1,16 @@
+Wyprowadzanie zwierz¹t ze schroniska.
+
+________________________________________
+
+Mo¿esz wyprowadzaæ je i zarabiaæ. Ale pamiêtaj, ¿eby nie przemêczyæ za bardzo danego pieska. Wiêcej piesków, to wiêcej przemierzanych km - a wiêc d³u¿szy czas spaceru. Gospodaruj rozs¹dnie swoim czasem!
+
+________________________________________
+Ficzery:
+- pieski i kotki dziedzicz¹ po klasie abstrakcyjnej Animal
+- Animal korzysta z interface GetTired, dziêki czemu zwierzêta potrafi¹ siê mêczyæ
+- podczas spaceru ka¿dy gatunek i rasa wydaje swój w³asny dŸwiêk - dzieje siê to w innym w¹tku, bo inaczej kolidowa³o by z poprawnym ³adowaniem siê paska spaceru. Na pewno rozpoznasz persa i pudelka!
+- mo¿esz dowolnie usuwaæ pieski i kotki, które chcesz wzi¹æ na spacer, z listy dziêki Data Grid View
+________________________________________
+Za³o¿enia:
+- wiele piesków ma te same imiona tzn. ¿e mo¿esz podczas jednego spaceru wzi¹æ wiele piesków typu np. poodle Daisy (u³atwia to szybsz¹ demonstracjê zmêczenia piesków)
+- program jest ma³y, by pokazaæ wszystkie mo¿liwoœci klas abstrakcyjnych, dziedziczenia i interfacu - dlatego niektóre rzeczy jak interface, zrobione s¹ na si³ê - ale w ramach æwiczeñ to spe³nia swoj¹ rolê.
